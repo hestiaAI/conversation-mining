@@ -183,7 +183,7 @@ const App = () => {
               Login
             </h2>
             <p className="text-center text-gray-600">
-              Connectez-vous pour accéder à vos conversations
+            Log in to access your conversations
             </p>
           </div>
           
@@ -256,7 +256,7 @@ const App = () => {
 
             {status.success && (
               <div className="bg-green-50 text-green-600 p-4 rounded-lg text-sm">
-                Récupération terminée avec succès !
+                Recovery successfully completed !
               </div>
             )}
 
@@ -275,7 +275,7 @@ const App = () => {
                   onClick={handleDownload}
                   className="w-full bg-white text-violet-600 border border-violet-600 py-3 px-4 rounded-lg hover:bg-violet-50 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 transition-colors font-medium"
                 >
-                  Télécharger les conversations
+                  Download conversations
                 </button>
               )}
             </div>
